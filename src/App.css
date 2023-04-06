@@ -1,0 +1,32 @@
+.containerPages{
+  display: flex;
+}
+.container{
+  width: 33%;
+  height: calc(100vh - 80px);
+  border-radius: 40px;
+  margin: 2px;
+}
+.containerButtons{
+  display: flex;
+}
+.buttonColor{
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.buttonColor:nth-child(1){
+  background-color: peru;
+}
+.buttonColor:nth-child(2){
+  background-color: burlywood;
+}
+.buttonColor:nth-child(3){
+  background-color: tomato;
+}
+.buttonColor:nth-child(4){
+  background-color: skyblue;
+}
